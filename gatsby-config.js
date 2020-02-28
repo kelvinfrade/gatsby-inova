@@ -9,7 +9,7 @@ module.exports = {
     description: `Os melhores cursos de teologia, psicanálise e preparatórios para concursos públicos.
     `,
     author: `@kelvinfrade`,
-    siteUrl: `https://gatsby-course-will.netlify.com`,
+    siteUrl: `https://inova.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
