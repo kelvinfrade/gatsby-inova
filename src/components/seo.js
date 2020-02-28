@@ -29,7 +29,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description
 
   const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "/assets/img/cover.png"}`
+  const ogImage = `${url}${image || "/assets/img/inova.png"}`
 
   return (
     <Helmet
@@ -85,7 +85,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-br`,
   meta: [],
   description: ``,
 }

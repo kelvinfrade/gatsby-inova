@@ -4,10 +4,11 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `John Doe`,
-    position: `Backend Developer`,
-    description: `A blog about backend development and other cool stuff.`,
-    author: `@myblog`,
+    title: `Inova Cursos`,
+    position: `Novos Tempos, Novos Começos`,
+    description: `Os melhores cursos de teologia, psicanálise e preparatórios para concursos públicos.
+    `,
+    author: `@kelvinfrade`,
     siteUrl: `https://gatsby-course-will.netlify.com`,
   },
   plugins: [
@@ -74,8 +75,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `John Doe`,
+        name: `Inova Cursos`,
+        short_name: `Inova Cursos`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,
