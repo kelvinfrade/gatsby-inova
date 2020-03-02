@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
+  repo: kelvinfrade/gatsby-inova
   branch: master
-  site_domain: gatsby-course-will.netlify.com
+  site_domain: inova.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -28,20 +28,20 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["jekyll", "css", "js", "html", "svg", "dev", "misc"]
+        options: ["teologia", "psicanalise", "concursos", "cursos", "eventos", "palestras"]
       }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Jekyll", value: "#B31917" },
-          { label: 'CSS', value: '#2DA0C3' },
-          { label: 'JS', value: '#D6BA32' },
-          { label: 'HTML', value: '#EB7728' },
-          { label: 'SVG', value: '#7D669E' },
-          { label: 'Dev', value: '#637a91' },
-          { label: 'Misc', value: '#7AAB13' },
+          { label: "Teologia", value: "#B31917" },
+          { label: 'Psicanálise', value: '#2DA0C3' },
+          { label: 'Concursos', value: '#D6BA32' },
+          { label: 'Cursos', value: '#EB7728' },
+          { label: 'Eventos', value: '#7D669E' },
+          { label: 'Palestras', value: '#637a91' },
+          # { label: 'Misc', value: '#7AAB13' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
